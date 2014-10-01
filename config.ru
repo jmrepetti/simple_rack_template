@@ -1,0 +1,2 @@
+use Rack::Static, :urls => ["/images", "/javascript","/stylesheets"], :root => "public", :index => 'index.html'
+run Proc.new { |env| ['200', {'Content-Type' => 'text/plain'}, ['simple rack site template']] }
