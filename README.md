@@ -1,6 +1,8 @@
 Simple Rack Template
 ====================
 
+This template includes [Skeleton CSS](http://www.getskeleton.com)
+
 Install rack gem with:
 
     $ gem install rack
